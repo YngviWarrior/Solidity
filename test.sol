@@ -3,7 +3,7 @@ pragma solidity ^0.4.17;
 contract Inbox { // Equals an class declaration
     string public message;
     
-    //Constructor (same name as contract)
+    //func Inbox is an Constructor (same name as contract)
     function Inbox(string initialMessage) public {
         message = initialMessage;
     }
